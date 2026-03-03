@@ -1,4 +1,8 @@
 {
+<<<<<<< HEAD
     "ansible.python.interpreterPath": "/usr/local/bin/python3",
     "python-envs.defaultEnvManager": "ms-python.python:system"
+=======
+    "ansible.python.interpreterPath": "/usr/local/bin/python3"
+>>>>>>> b9eac8cdcd8003399b94896dc383b58ac3a2f8c8
 }
