@@ -1,7 +1,13 @@
 ---
 - name: Install httpd
+  hosts: all
   become: yes
-  ignore_errors: yes
+  ignore_errors: true
+   vars:
+    datadog_api_key: "a051942312cda8191df62a021c111ca5"
+    datadog_site: "datadoghq.com"
+    datadog_env: "dev"
+    datadog_hostname: "student-server"
 
   tasks:
-    - name: 
+    - name: install datadog agent
